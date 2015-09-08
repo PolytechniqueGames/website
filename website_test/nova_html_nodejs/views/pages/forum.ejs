@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <% include ../partials/head %>
+    <title>Poly Games</title>
+</head>
+<!-- Body -->
+<body class="container">
+    
+    <!-- NavBar -->
+    <% include ../partials/navbar %>
+
+    <!-- Content -->
+    <div class="container">
+        <div>
+            <h1 style="text-align:center;">Forum de discussion</h1>
+        </div>
+        <!-- Forum -->
+        <div class="col-lg-12 panel transparency" alt="Forum de discussion" align="center"> 
+            <iframe id="forum_embed"
+              src="javascript:void(0)"
+              scrolling="no"
+              frameborder="0"
+              width="900"
+              height="700">
+            </iframe>
+            <script type="text/javascript">
+              document.getElementById('forum_embed').src =
+                 'https://groups.google.com/forum/embed/?place=forum/polytechnique-games'
+                 + '&showsearch=true&showpopout=true&showtabs=false'
+                 + '&parenturl=' + encodeURIComponent(window.location.href);
+            </script> 
+        </div>
+    </div>
+
+    <!-- Including scripts -->
+    <% include ../partials/scripts %>
+    
+    <!-- Footer -->
+    <footer>
+      <% include ../partials/footer %>
+    </footer>
+    
+</body>
+<!-- .Body -->
+</html>

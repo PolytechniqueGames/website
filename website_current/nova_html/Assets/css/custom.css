@@ -1,0 +1,98 @@
+body {
+	background: url("../img/gray-gradient-9839.jpg") repeat center top fixed;
+    font-family:'Roboto', sans-serif;
+    color: #FFFFFF;
+    line-height:1.2em;
+    font-size:17px;
+    line-height:20px;
+    touch-action: auto;
+}
+
+footer {
+    text-align: center;
+    font-size:12px; 
+
+}
+
+.row{
+    overflow: hidden; 
+}
+
+.fiche-description{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.descripteur p{
+    font-size: 14px;
+}
+
+.descripteur img{
+    padding: 20px;
+}
+
+.information-panel {
+    min-width: 560px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.maincolumn {
+
+}
+
+.maincolumn h1{
+	color: #ffffff;
+}
+
+.maincolumn p{
+	color: #ffffff;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.all-projects {
+    margin: auto;
+}
+
+.all-projects table{
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.all-projects td{
+    width: 33%;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.single-project{
+
+
+    padding: 10px;
+}
+
+.sidebarpanel {
+	background-color: #666666;
+	text-align: center;
+    padding-bottom: 50px;
+}
+
+.social-button img{
+    padding-bottom: 15px;
+}
+
+.transparency {
+  background-color:rgba(0,0,0,0.3);
+}
